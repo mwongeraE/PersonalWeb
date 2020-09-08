@@ -8,10 +8,6 @@ For an overview of the project structure please refer to the [Gatsby documentati
 
 Check online preview [here](https://anubhavsrivastava.github.io/gatsby-starter-prologue/)
 
-## Screenshot
-
-![Screenshot](./src/assets/img/demo.png)
-
 ## Install
 
 Make sure that you have the Gatsby CLI program installed:
