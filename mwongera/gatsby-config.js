@@ -25,27 +25,19 @@ module.exports = {
       },
     },
     {
-      resolve: 'gatsby-source-github',
-            options: {
-              headers: {
-                Authorization: `Bearer ${process.env.GITHUB_PERSONAL_ACCESS_TOKEN}`,
-              },
-              queries: [
-                `{ viewer {                 
-                  pinnedItems(first: 6, types: REPOSITORY){
-                   nodes {
-                     ... on Repository {
-                    id                       
-                    name
-                    url
-                    description
-                    homepageUrl
-                  }
-                 }
-                }}
-              }`,
-           ],
+      resolve: "gatsby-source-graphql",
+      options: {
+        typeName: "GitHub",
+        fieldName: "github",
+        url: "https://api.github.com/graphql",
+        // HTTP headers
+        headers: {
+          // Learn about environment variables: https://gatsby.dev/env-vars
+          Authorization: `Bearer ${process.env.GITHUB_PERSONAL_ACCESS_TOKEN}`,
         },
+        // Additional options to pass to node-fetch
+        fetchOptions: {},
+      },
     },
     'gatsby-plugin-sass',
     'gatsby-plugin-offline',
