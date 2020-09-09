@@ -97,10 +97,10 @@ const IndexPage = () => (
           I will write back to you within 1-3 days saying:<br/>
           
           - if this is something feasible<br/>
-          - if we can help you with that<br/>
-          - if we can point you to someone who can help you with that.<br/>
+          - if I can help you with that<br/>
+          - if I can point you to someone who can help you with that.<br/>
           
-          You can contact us by filling the form or write me an email: evansmwongera@gmail.com
+          You can contact me by filling the form or write me an email: evansmwongera@gmail.com
 
           </p>
 
