@@ -1,3 +1,7 @@
+# Version 0.1
+
+# Instructions on usage
+
 # gatsby-starter-prologue
 
 Gatsby.js V2 starter template based on Prologue by HTML5 UP
@@ -38,7 +42,7 @@ Edit `config.js` to put up your details
 module.exports = {
   siteTitle: 'Gatsby Starter Prologue', // <title>
   ...
-  authorName: 'Anubhav Srivastava',
+  authorName: 'Evans Mwongera',
   heading: 'Web Developer',
   // social
   socialLinks: [
